@@ -79,9 +79,12 @@ public class CalculatorScreen extends GuiScreen {
                     break;
                 case 3 :
                     addButton(new GuiButton(buttonId++, (width - buttonWidth * 4) / 2 + 3 * (buttonWidth + padding), height - 165, buttonWidth, buttonHeight, "=") {
-                    public void onPressed(Minecraft mc, int mouseX, int mouseY) {
-                        textField.setText("Result goes here");
-                    }
+                        @Override
+                        public boolean mousePressed(Minecraft mc, int mouseX, int mouseY) {
+                            // 当按钮被点击时，执行这里的代码
+                            textField.setText("Result goes here");
+                            return super.mousePressed(mc, mouseX, mouseY);
+                        }
                 });
                     break;
 
