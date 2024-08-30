@@ -1,4 +1,5 @@
-本模组使用LGPL协议开源 https://github.com/webugesrg/1.12.2CalculatorMod/blob/main/LICENSE.txt
+本模组使用LGPL协议开源 
+https://github.com/webugesrg/1.12.2CalculatorMod/blob/main/LICENSE.txt
 这个模组旨在Mc中添加一个计算器
 -------------------------------------------
 Source installation information for modders
