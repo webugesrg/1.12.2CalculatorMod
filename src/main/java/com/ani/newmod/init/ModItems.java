@@ -30,7 +30,7 @@ import net.minecraft.world.World;
 public class ModItems
 {
     public static final List<Item> ITEMS = new ArrayList<Item>();
-    public  static final Item LABOR_SHOVEL = new ItemBase("labor_shovel", Main.ITEM_TAB);
+//    public  static final Item LABOR_SHOVEL = new ItemBase("labor_shovel", Main.ITEM_TAB);
     public  static final Item CALCULATOR = new ItemBase("calculator", CreativeTabs.REDSTONE);
 //    @SideOnly(Side.CLIENT)
 //    @SubscribeEvent

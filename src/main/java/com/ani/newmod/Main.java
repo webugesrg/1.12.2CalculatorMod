@@ -35,6 +35,6 @@ public class Main
     {
 
     }
-    public static CreativeTabs ITEM_TAB = new ItemTab( );
+//    public static CreativeTabs ITEM_TAB = new ItemTab( );
 
 }
